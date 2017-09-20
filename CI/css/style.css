@@ -1,0 +1,88 @@
+html{
+	width:60%;
+	//padding: 10px;
+	//border:1px solid black;
+	display:inline;
+	float:left;
+	margin-left:20%;
+	background:#f9f9f9;
+}
+body{
+	background:#fff;
+	 width:100%;
+	height:100%;
+	display:inline;
+	float:left;
+	border:solid 1px #8c8c8c;
+	box-shadow: 4px 4px 2px #888888;
+	padding:15px;
+}
+#header{
+	font-size:50px;
+	width:100%;
+}
+fieldset{
+	width:230px;
+	margin:auto;
+}
+input{
+	width:225px;
+	height:35px;
+}
+
+button{
+	margin-top: 3px;
+	width:70%;
+	margin-left:14.5%;
+}
+#nav{
+	margin-top:50px;
+	display:inline;
+	float:left;
+	margin-right:15px;
+}
+.tableRow{
+	margin-top:15px;
+}
+.text{
+	font-size:20px;
+	//font-weight:bold;
+}
+.postData{
+	color:grey;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
